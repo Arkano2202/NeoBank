@@ -108,7 +108,12 @@ const t = {
     ctaFinalSub:"Controla tu dinero, ahorra con inteligencia y muévete sin fronteras.",
     ctaFinalPrimary:"Abrir cuenta gratis",
     ctaFinalSecondary:"Conocer más",
-    ctaFinalNote:"Sin comisiones ocultas · Sin compromiso"
+    ctaFinalNote:"Sin comisiones ocultas · Sin compromiso",
+
+    /*FLOTANTE*/
+    activityPayAmazon: "Pago Amazon",
+    activityMonthlySave: "Ahorro mensual",
+    activityBTC: "Inversión BTC"
 
   },
 
@@ -225,9 +230,124 @@ const t = {
     /* EMPRESA 2 */
     t7name:"Grupo Bimbo",
     t7role:"Alejandro Rodríguez Bas · Manager",
-    t7text:"NeoBank stands out for its security and efficiency. It has become a key tool in improving our financial processes."
+    t7text:"NeoBank stands out for its security and efficiency. It has become a key tool in improving our financial processes.",
+
+    /*FLOTANTE*/
+    activityPayAmazon: "Amazon payment",
+    activityMonthlySave: "Monthly savings",
+    activityBTC: "BTC investment"
+
+  },
+
+  fr:{
+  /* NAV */
+    navAccount:"Compte",
+    navCards:"Cartes",
+    navPlans:"Forfaits",
+    navSecurity:"Sécurité",
+    login:"Connexion",
+    openAccount:"Ouvrir un compte",
+
+    /* HERO */
+    badge:"Nouveau · Compte international",
+    heroLine1:"Contrôle total de votre argent,",
+    heroLine2:"sans complications",
+    heroSub:"Paiements, épargne et investissements dans une seule application sécurisée.",
+    ctaPrimary:"Ouvrir un compte gratuit",
+    ctaSecondary:"Comment ça marche",
+    trust1:"Jusqu’à 100 000 € protégés",
+    trust2:"Réglementé",
+    note:"Revenu reçu",
+
+    /* METRICS */
+    m1:"Clients satisfaits",
+    m2:"Devises disponibles",
+    m3:"Pays et régions",
+    m4:"Support prioritaire",
+
+    /* SUPERAPP */
+    superTitle:"Une super-application pour tout votre argent",
+    superSub:"Des dépenses quotidiennes aux investissements à long terme, NeoBank vous donne un contrôle total.",
+
+    /* FEATURES */
+    f1t:"Compte international",
+    f1d:"Envoyez et recevez de l’argent dans plusieurs devises sans frais cachés.",
+    f2t:"Budgets intelligents",
+    f2d:"Contrôlez vos dépenses avec alertes et limites.",
+    f3t:"Coffres-forts",
+    f3d:"Épargnez pour vos objectifs avec un rendement annuel.",
+    f4t:"Sécurité biométrique",
+    f4d:"Accès via FaceID et vérification avancée.",
+    f5t:"Investissement accessible",
+    f5d:"Investissez à partir de petits montants sur les marchés mondiaux.",
+    f6t:"Crypto intégrée",
+    f6d:"Achetez et gérez des cryptos directement depuis l’application.",
+
+    /* HOW */
+    howTitle:"Comment fonctionne NeoBank",
+    howSub:"Commencez à gérer votre argent en quelques étapes simples et sécurisées.",
+
+    how1t:"Créez votre compte",
+    how1d:"Inscription en quelques minutes avec vos informations de base.",
+    how2t:"Vérifiez votre identité",
+    how2d:"Nous protégeons votre compte selon des normes internationales.",
+    how3t:"Gérez votre argent",
+    how3d:"Payez, épargnez et investissez depuis un seul endroit.",
+    how4t:"Gardez le contrôle",
+    how4d:"Visualisez tout en temps réel, sans surprises.",
+
+    /* TESTIMONIALS */
+    testTitle:"Ce que disent nos utilisateurs",
+    testSub:"Des millions de personnes font confiance à NeoBank chaque jour.",
+
+    t1text:"NeoBank a changé ma façon de gérer mon argent. Tout est clair, rapide et sans frais cachés.",
+    t1name:"Laura Martinez",
+    t1role:"Freelance",
+
+    t2text:"Je voyage constamment et NeoBank me permet de payer et d’épargner en plusieurs devises sans difficulté.",
+    t2name:"Daniel Brooks",
+    t2role:"Nomade digital",
+
+    t3text:"La sécurité et le support sont excellents. J’ai toujours un contrôle total de mes finances.",
+    t3name:"Sophie Laurent",
+    t3role:"Cheffe d’entreprise",
+
+    t4name:"Carlos Ramirez",
+    t4role:"Analyste financier",
+    t4text:"NeoBank est solide et facile à utiliser. Quelques options avancées pourraient être améliorées, mais l’expérience globale est excellente.",
+
+    t5name:"Maria Gonzalez",
+    t5role:"Entrepreneure",
+    t5text:"L’application est intuitive et fiable. Le contrôle financier est bien supérieur aux banques traditionnelles.",
+
+    t6name:"BAT Mexico",
+    t6role:"Fausto Alfonso Yáñez Siller · Directeur",
+    t6text:"NeoBank a optimisé nos paiements internationaux et amélioré notre visibilité financière.",
+
+    t7name:"Group Binbo",
+    t7role:"Alejandro Rodríguez Bas · Directeur",
+    t7text:"NeoBank se distingue par sa sécurité et son efficacité.",
+
+    /* CTA */
+    ctaFinalTitle:"Commencez aujourd’hui avec NeoBank",
+    ctaFinalSub:"Contrôlez votre argent, épargnez intelligemment et allez plus loin.",
+    ctaFinalPrimary:"Ouvrir un compte gratuit",
+    ctaFinalNote:"Sans frais cachés · Sans engagement",
+
+    /* LEGAL */
+    legalCompany:"NeoBank Technologies Ltd. Société de technologie financière.",
+    legalDisclaimer:"NeoBank n’est pas une banque. Les services financiers sont fournis par des partenaires réglementés.",
+    legalRisk:"Les produits financiers et crypto comportent des risques.",
+    rights:"Tous droits réservés.",
+
+    /*FLOTANTE*/
+    activityPayAmazon: "Paiement Amazon",
+    activityMonthlySave: "Épargne mensuelle",
+    activityBTC: "Investissement BTC",
+    note: "Revenu reçu"
 
   }
+
 };
 
 function setLang(lang){

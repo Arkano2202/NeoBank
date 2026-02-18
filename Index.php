@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Custom -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body class="nb-body">
@@ -28,15 +28,13 @@
 
     <div class="collapse navbar-collapse" id="nbMenu">
       <ul class="navbar-nav mx-auto gap-lg-3">
-        <li class="nav-item"><a class="nav-link" data-i18n="navAccount" href="#">Cuenta</a></li>
-        <li class="nav-item"><a class="nav-link" data-i18n="navCards" href="#">Tarjetas</a></li>
-        <li class="nav-item"><a class="nav-link" data-i18n="navPlans" href="#">Planes</a></li>
-        <li class="nav-item"><a class="nav-link" data-i18n="navSecurity" href="#">Seguridad</a></li>
+
       </ul>
 
       <div class="d-flex align-items-center gap-2">
         <button class="btn btn-sm btn-outline-light" onclick="setLang('es')">ES</button>
         <button class="btn btn-sm btn-outline-light" onclick="setLang('en')">EN</button>
+        <button class="btn btn-sm btn-outline-light" onclick="setLang('fr')">FR</button>
         <a href="#" class="btn btn-link text-light text-decoration-none" data-i18n="login">Iniciar sesión</a>
         <a href="#" class="btn nb-btn-primary" data-i18n="openAccount">Abrir cuenta</a>
       </div>
@@ -94,15 +92,15 @@
           <i class="bi bi-arrow-up-circle"></i>
           <div>
             <small data-i18n="note">Ingreso recibido</small><br>
-            <strong>+2.850 €</strong>
+            <strong>+2.850 $</strong>
           </div>
         </div>
 
         <!-- NUEVA ACTIVIDAD -->
         <div class="nb-activity">
-          <div>Pago Amazon <span>-42 €</span></div>
-          <div>Ahorro mensual <span>+150 €</span></div>
-          <div>Inversión BTC <span>+3.2%</span></div>
+          <div><span data-i18n="activityPayAmazon">Pago Amazon</span> <span>-42 $</span></div>
+          <div><span data-i18n="activityMonthlySave">Ahorro mensual</span> <span>+150 $</span></div>
+          <div><span data-i18n="activityBTC">Inversión BTC</span> <span>+3.2%</span></div>
         </div>
 
       </div>
